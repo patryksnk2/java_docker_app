@@ -1,0 +1,13 @@
+CREATE TABLE users (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL
+);
+
+CREATE TABLE transactions (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    amount DECIMAL(10,2) NOT NULL,
+    timestamp TIMESTAMP NOT NULL,
+    user_id BIGINT,
+    CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id)
+);
