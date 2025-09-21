@@ -4,6 +4,5 @@ import com.example.myapp.application.user.port.in.CreateUserUseCase;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CreateUserService {
-
+public class CreateUserService implements CreateUserUseCase {
 }

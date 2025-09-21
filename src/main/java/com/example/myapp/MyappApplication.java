@@ -11,9 +11,6 @@ public class MyappApplication {
 	}
 
 }
-//Creating project Structure  feature/project-structure
-
-//Struktura aplikacji:
 
 
 
