@@ -10,6 +10,7 @@ import java.time.Instant;
 public class TransactionJpaEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     Long transactionId;
     @Column(name = "amount")
     BigDecimal amount;

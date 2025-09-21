@@ -1,0 +1,18 @@
+# Build
+/build/
+/out/
+/.gradle/
+
+# IDE
+/.idea/
+/*.iml
+
+# Temporary files
+*.class
+*.log
+*.lock
+
+# Database
+/data/
+*.mv.db
+*.trace.db

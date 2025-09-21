@@ -7,6 +7,7 @@ import jakarta.persistence.*;
 public class UserJpaEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     Long userId;
 
     @Column(name = "name")

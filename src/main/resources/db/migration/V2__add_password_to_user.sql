@@ -1,1 +1,1 @@
-alter table user add password VARCHAR2(255) NOT NULL;
+ALTER TABLE users ADD COLUMN password VARCHAR(255) NOT NULL;
