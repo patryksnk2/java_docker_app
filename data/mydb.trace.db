@@ -7,6 +7,3 @@ select * from flyway_schema_history [42103-232]
 2025-09-13 22:20:04.153334+02:00 jdbc[13]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FLYWAY_SCHEMA_HISTORY" not found (candidates are: "flyway_schema_history"); SQL statement:
 select * from flyway_schema_history [42103-232]
-2025-09-21 21:11:46.008551+02:00 jdbc[4]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]user add password VARCHAR2(255) NOT NULL"; expected "identifier"; SQL statement:
-alter table user add password VARCHAR2(255) NOT NULL [42001-232]
